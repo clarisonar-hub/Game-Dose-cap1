@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Tibia Online</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js" defer></script>
+<script src="js/firebase.js" defer></script>
+<script src="js/jogo.js" defer></script>
+</head>
+<body>
+<div class="container">
+  <h1>Tibia Online</h1>
+  <div id="playerStats">
+      <p id="nomeJogador"></p>
+      <p>Vida: <span id="vida"></span></p>
+      <p>Mana: <span id="mana"></span></p>
+      <p>Level: <span id="level"></span></p>
+  </div>
+  <div id="mapa">
+      <img src="assets/sprites/player.png" id="player">
+  </div>
+  <button id="logout">Sair</button>
+</div>
+</body>
+</html>
